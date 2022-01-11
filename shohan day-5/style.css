@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.main{
+ 
+}
+
+.image{
+    width: 20%;
+    height: 120px;
+   
+}
+
+
+
+.containt{
+    width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+   margin-bottom: 10px;
+    font-size:15px;
+    background-color: rgb(98, 201, 120);
+    text-align: center;
+   
+}
+
+.head{
+    width: 100%;
+    height: 180px;
+    font-size: 20px;
+    float: left;
+    background-color: rgb(59, 59, 192);
+    text-align: center;
+    
+}
+.ul{
+  list-style-type: none;
+  height: 80px;
+  width: 100%;
+  background: rgb(109, 235, 136);
+  display: inline-block;
+  
+}
+.li{
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+}
+
+.ul .li a{
+  display: block;
+  
+  text-decoration: none;
+}
+
+.ul .li a:hover:not(.list){
+  background: rgb(253, 250, 249);
+ 
+}
+
+.list{
+  background-color: rgb(9, 190, 24);
+}
+.table1{
+  width: 100%;
+  height: auto;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  font-size:25px;
+  background-color: rgb(96, 228, 233);
+  border-radius:5px ;
+  -webkit-border-radius:5px ;
+  -moz-border-radius:5px ;
+  -ms-border-radius:5px ;
+  -o-border-radius:5px ;
+}
+.table-td{
+  width: 50%;
+  height: auto;
+  border: 2px solid rgb(212, 195, 195);
+  
+}
+.table-td1{
+  width: 50%;
+  height: auto;
+  border: 2px solid rgb(212, 195, 195);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.tr1{
+  width: 25%;
+  height: auto;
+  border: 2px solid rgb(212, 195, 195);
+}
+.tr2{
+  width: 25%;
+  height: auto;
+  border: 2px solid rgb(212, 195, 195);
+}
+
+
+
+
+.table{
+  width: 100%;
+  margin: auto;
+  background-color: seagreen;
+}
+
+.table ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.table li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.table li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+p1{
+  font-size: 25px;
+  text-align: center;
+}
+p1:hover{
+  background-color: springgreen;
+  
+}
